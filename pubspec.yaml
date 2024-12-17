@@ -1,0 +1,56 @@
+# name app and description
+name: crypto_coins_list
+description: "My crypto application"
+# The following line prevents the package from being accidentally published to
+publish_to: "none"
+version: 1.0.0+1
+# sdk version
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.16
+  dio: ^5.7.0
+  get_it: ^7.6.0
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+  talker_flutter: ^4.5.2
+  intl: ^0.20.1
+  # package for logger with extended features
+  talker: 4.5.2
+  talker_dio_logger: ^4.5.2
+  talker_bloc_logger: 4.5.2
+  # package for firebase
+  firebase_core: ^3.8.1
+  # package for json annotation
+  json_annotation: ^4.9.0
+  # install hive packages, hive - flutter package for local storage
+  hive_flutter: ^1.1.0
+  # package for autorouting
+  auto_route: ^6.1.0
+
+# Dev dependencies are used only for development
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  # ads adapter generator
+  hive_generator: ^2.0.0
+  auto_route_generator: ^6.1.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  # included with your application, so that you can use the icons in
+  uses-material-design: true
+
+  # ads assets folder with svg(images)
+  assets:
+    - assets/svg/
